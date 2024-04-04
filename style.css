@@ -1,0 +1,146 @@
+#clinic{
+
+    display: flex;
+    gap: 300px;
+    margin-bottom: 100px;
+}
+#ratt{
+    display: flex;
+}
+body{
+    font-size: larger;
+}
+.topnav{
+    background-color:#CFE4E7;
+    margin-bottom: 50px;
+}
+.services{
+    display: flex;
+    gap: 400px;
+    margin-bottom: 50px;
+}
+.Radiology{
+    display: flex;
+    gap: 400px;
+    margin-bottom: 50px;
+    
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+}
+#branches{
+    display: flex;
+    gap: 400px;
+    margin-bottom: 50px;
+}
+#blue{
+    color: blue;
+
+}
+#str{
+    display: flex;
+}
+#imag{
+    width: 100px;
+}
+#guy{
+    width: 100px;
+    border-radius: 100px;
+
+}
+.peg{
+    display: flex;
+}
+#vet4{
+  background-image: #CFE4E7;
+}
+#cheap{
+    display: flex;
+    gap: 400px;
+    margin-bottom: 50px;
+}
+#email{
+   
+    text-align: center;
+}
+#address{
+    display: flex;
+    gap: 200px;
+    background-color: white;
+    padding: 20px;
+   margin-right: 700px;
+}
+#blog{
+    background-color:#CFE4E7;
+    padding: 50px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer{
+    display: flex;
+    gap: 300px;
+    background-color:#CFE4E7;
+
+}
+#stars{
+    display: flex;
+    gap: 10px;
+
+}
+#image{
+    height: 30px;
+}
+#cat{
+    border-radius: 400px;
+}
+.Radiol{
+    display: flex;
+    gap: 400px;
+    margin-bottom: 50px;
+}
+.Radio{
+    display: flex;
+    gap: 450px;
+    margin-bottom: 100px;
+}
+#img{
+    display: flex;
+    gap: 10px;
+}
+
+   
+@media screen and (min-width: 375px) and (max-width:939px){
+    .Radiology{
+        flex-wrap: wrap;
+        
+    }
+
+    #branches{
+        flex-wrap: wrap;
+    }
+    .services{
+        flex-wrap: wrap;
+        width: 100px;
+    }
+    .topnav{
+        flex-wrap: wrap;
+    }
+    .footer{
+flex-wrap: wrap;
+    }
+    #cheap{
+        flex-wrap: wrap;
+        width: 100px;
+    }
+    .Radiol{
+        flex-wrap: wrap;
+    }
+    #blog{
+        flex-wrap: wrap;
+    }
+}
